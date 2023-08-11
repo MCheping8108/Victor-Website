@@ -144,7 +144,10 @@ body {
       text-align: center;
       color: white;
       font-size: 100px;
-
+      position: relative;
+      bottom: 0;
+      left: 0;
+      width: 100%;
       font-weight: bold;
       margin-top: 50px;
       margin-bottom: 50px;
@@ -186,7 +189,7 @@ body {
 }
 
 .context {
-      height: 1000px;
+      height: 500px;
 }
 
 .introduce-text {
