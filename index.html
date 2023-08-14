@@ -8,6 +8,23 @@
       <link rel="stylesheet" href="./CSS/style.css">
       <script>
             // 写点啥好呢？只能是维克多科技了！
+
+            // 禁用鼠标右键
+            window.oncontextmenu = function(e) {
+                  e.preventDefault()
+            }
+            // 禁用开发者工具
+            document.onkeydown = function (e) {
+            if (
+                  e.key === 'F12' ||
+                  (e.ctrlKey && e.shiftKey && e.key === 'I') ||
+                  (e.ctrlKey && e.shiftKey && e.key === 'J') ||
+                  (e.ctrlKey && e.key === 'U') 
+            ) {
+                  return false;
+            }
+            };
+
       </script>
 </head>
 <body>
