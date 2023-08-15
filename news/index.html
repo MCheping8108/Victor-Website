@@ -7,6 +7,21 @@
       <link rel="icon" href="../images/Victor-logo.png">
       <link rel="stylesheet" href="../CSS/style.css">
       <script>
+            // 禁用鼠标右键
+            window.oncontextmenu = function(e) {
+                  e.preventDefault()
+            }
+            // 禁用开发者工具
+            document.onkeydown = function (e) {
+            if (
+                  e.key === 'F12' ||
+                  (e.ctrlKey && e.shiftKey && e.key === 'I') ||
+                  (e.ctrlKey && e.shiftKey && e.key === 'J') ||
+                  (e.ctrlKey && e.key === 'U') 
+            ) {
+                  return false;
+            }
+            };
       </script>
 </head>
 <body>
@@ -18,9 +33,9 @@
             <div class="dropdown">
               <a href="#products" class="dropbtn">产品</a>
               <div class="dropdown-content">
-                <a href="#">产品1</a>
-                <a href="#">产品2</a>
-                <a href="#">产品3</a>
+                <a href="../product/product.01.html">高精准度导航系统</a>
+                <a href="../product/product.02.html">高效能计算平台</a>
+                <a href="../product/product.03.html">安全通信设备</a>
               </div>
             </div>
             <a href="https://space.bilibili.com/1334958461" target="_blank">联系</a>
