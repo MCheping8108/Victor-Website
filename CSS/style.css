@@ -25,6 +25,7 @@ body {
 .navbar a:hover {
       background-color: #ddd;
       color: black;
+      cursor: pointer;
 }
 
 .dropdown {
