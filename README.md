@@ -6,3 +6,6 @@
 ## 目前已知的BUG
 
 - [ ] 目前部分地区无法播放视频
+
+## 未来计划
+- [ ] 使用Vue+Vite重写Victoe-Website
