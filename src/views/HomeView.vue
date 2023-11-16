@@ -6,6 +6,14 @@
 
 <div class="introduce">
       <div class="title-text">
+            <h1><img src="https://avatars.githubusercontent.com/u/6128107?s=200&v=4" alt="" style="width: 500px; height: 500px"></h1>
+            <h1>VUE 3.0 !!!</h1>
+      </div>
+      <p class="introduce-text">维克多网站使用了VUE架构，同时使用了VITE技术栈，用于快速开发</p>
+</div>
+
+<div class="introduce">
+      <div class="title-text">
             <h1>我们是谁？</h1>
       </div>
       <p class="introduce-text">我们是一家诸如军工级硬件的科技供应商，同时负责研究一部分应用物理和理论物理。</p>
