@@ -185,11 +185,11 @@ nav .router-link:hover {
 
 
 .introduce {
-  border-radius: 20px;
+  border-radius: 50px;
   box-shadow: 0px 0px 20px black;
   background-color: black;
-  margin: 20px;
-  padding: 20px;
+  margin: 50px;
+  padding: 50px;
 }
 
 .introduce .title-text {

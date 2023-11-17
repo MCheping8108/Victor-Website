@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "vite --port=3000",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --port=5000",
+    "status": "git status",
+    "push": "git add . && git commit -m \"update\" && git push"
   },
   "dependencies": {
     "vue": "^3.3.4",
