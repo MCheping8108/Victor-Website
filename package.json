@@ -6,6 +6,7 @@
     "dev": "vite --port=3000",
     "build": "vite build",
     "preview": "vite preview --port=5000",
+    "phone:dev": "vite --port=3000 --host=192.168.110.206",
     "status": "git status",
     "push": "git add . && git commit -m \"update\" && git push"
   },
